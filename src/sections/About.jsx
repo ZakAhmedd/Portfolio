@@ -25,7 +25,7 @@ const About = () => {
                     <div>
                         <p className="grid-headtext">Hi, I'm Zak</p>
                         <p className="grid-subtext">
-                            With 2 years of experience, I have honed my skills in frontend and backend development.
+                            With 2 years of experience, I have honed my skills in full-stack development.
 
                         </p>
                     </div>
@@ -38,7 +38,7 @@ const About = () => {
 
                     <div>
                         <p className="grid-headtext">Tech Stack</p>
-                        <p className="grid-subtext">I specialize in full-stack development with a focus on React and Node.js ecosystems</p>
+                        <p className="grid-subtext">I specialize in full-stack development with a focus on MERN</p>
                     </div>
                 </div>
             </div>
