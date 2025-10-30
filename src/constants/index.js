@@ -58,6 +58,80 @@ export const clientReviews = [
 
 export const myProjects = [
   {
+    title: 'Forever - Clothing Ecommerce Website',
+    desc: 'Forever is a clothing ecommerce website that allows you to view and buy clothing items.',
+    subdesc:
+      'Payments are handled by Stripe. The platform contains both backend and frontend code. Built with Node.js, Express.js, MongoDB, Tailwind and React.',
+    href: 'full-stack-ecom-app-pq5m.onrender.com',
+    texture: '/textures/project/project6.png',
+    logo: '/assets/project-logo1.png',
+    logoStyle: {
+      backgroundColor: '#2A1816',
+      border: '0.2px solid #36201D',
+      boxShadow: '0px 0px 60px 0px #AA3C304D',
+    },
+    spotlight: '/assets/spotlight5.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'Node.js',
+        path: 'assets/Node.js.png',
+      },
+      {
+        id: 3,
+        name: 'Tailwind',
+        path: '/assets/tailwindcss.png',
+      },
+      {
+        id: 4,
+        name: 'MongoDB',
+        path: '/assets/MongoDB.png',
+      },
+    ],
+  },
+  {
+    title: 'Chat App - Realtime Messaging',
+    desc: 'A real time messaging application that allows you to chat with other users.',
+    subdesc:
+      'Live messages handled via Socket.io. Custom themes with daisyUi. The platform contains both backend and frontend code. Built with Node.js, Express.js, MongoDB, React and Tailwind.',
+    href: 'fullstack-chat-app-vmlh.onrender.com',
+    texture: '/textures/project/project7.png',
+    logo: '/assets/project-logo1.png',
+    logoStyle: {
+      backgroundColor: '#2A1816',
+      border: '0.2px solid #36201D',
+      boxShadow: '0px 0px 60px 0px #AA3C304D',
+    },
+    spotlight: '/assets/spotlight1.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'Node.js',
+        path: 'assets/Node.js.png',
+      },
+      {
+        id: 3,
+        name: 'Tailwind',
+        path: '/assets/tailwindcss.png',
+      },
+      {
+        id: 4,
+        name: 'MongoDB',
+        path: '/assets/MongoDB.png',
+      },
+    ],
+  },
+  {
     title: 'Natours - Tour Booking Platform',
     desc: 'Natours is an application that allows you to view and book tours that are hosted all around the world!',
     subdesc:
