@@ -135,7 +135,7 @@ export const myProjects = [
     title: 'SaaS App - AI Companions',
     desc: 'Learn more about your chosen subject with your AI companion.',
     subdesc:
-      'Backend built using Clerk, Supabase and Vapi and the frontend built using Next.js, and Tailwind.',
+      'Backend built using Clerk, Supabase and Vapi and the Frontend built using Next.js and Tailwind.',
     texture: '/textures/project/project8.png',
     logo: '/assets/project-logo1.png',
     logoStyle: {
@@ -153,7 +153,7 @@ export const myProjects = [
       {
         id: 2,
         name: 'Next.js',
-        path: 'assets/Next.js.png',
+        path: 'assets/nextlogo.png',
       },
       {
         id: 3,
@@ -164,6 +164,16 @@ export const myProjects = [
         id: 4,
         name: 'Supabase',
         path: '/assets/Supabase.png',
+      },
+      {
+        id: 5,
+        name: 'Vapi',
+        path: '/assets/vapi.svg',
+      },
+      {
+        id: 6,
+        name: 'Clerk',
+        path: '/assets/clerklogo.svg',
       },
     ],
   },
@@ -304,7 +314,7 @@ export const myProjects = [
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
   return {
     deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.065,
-    deskPosition: isMobile ? [0.5, -4.5, 0] : [0.25, -5.5, 0],
+    deskPosition: isMobile ? [0.5, -4.5, 0] : [0.25, -7, 0],
     cubePosition: isSmall ? [4, -5, 0] : isMobile ? [5, -5, 0] : isTablet ? [5, -5, 0] : [9, -5.5, 0],
     reactLogoPosition: isSmall ? [3, 4, 0] : isMobile ? [5, 4, 0] : isTablet ? [5, 4, 0] : [12, 3, 0],
     ringPosition: isSmall ? [-5, 7, 0] : isMobile ? [-10, 10, 0] : isTablet ? [-12, 10, 0] : [-24, 10, 0],
