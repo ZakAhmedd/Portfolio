@@ -132,6 +132,42 @@ export const myProjects = [
     ],
   },
   {
+    title: 'SaaS App - AI Companions',
+    desc: 'Learn more about your chosen subject with your AI companion.',
+    subdesc:
+      'Backend built using Clerk, Supabase and Vapi and the frontend built using Next.js, and Tailwind.',
+    texture: '/textures/project/project8.png',
+    logo: '/assets/project-logo1.png',
+    logoStyle: {
+      backgroundColor: '#2A1816',
+      border: '0.2px solid #36201D',
+      boxShadow: '0px 0px 60px 0px #AA3C304D',
+    },
+    spotlight: '/assets/spotlight1.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'Next.js',
+        path: 'assets/Next.js.png',
+      },
+      {
+        id: 3,
+        name: 'Tailwind',
+        path: '/assets/tailwindcss.png',
+      },
+      {
+        id: 4,
+        name: 'Supabase',
+        path: '/assets/Supabase.png',
+      },
+    ],
+  },
+  {
     title: 'Natours - Tour Booking Platform',
     desc: 'Natours is an application that allows you to view and book tours that are hosted all around the world!',
     subdesc:
