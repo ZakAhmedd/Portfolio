@@ -62,7 +62,7 @@ export const myProjects = [
     desc: 'Forever is a clothing ecommerce website that allows you to view and buy clothing items.',
     subdesc:
       'Payments are handled by Stripe. The platform contains both backend and frontend code. Built with Node.js, Express.js, MongoDB, Tailwind and React.',
-    href: 'full-stack-ecom-app-pq5m.onrender.com',
+    href: 'https://full-stack-ecom-app-pq5m.onrender.com/',
     texture: '/textures/project/project6.png',
     logo: '/assets/project-logo1.png',
     logoStyle: {
@@ -99,7 +99,7 @@ export const myProjects = [
     desc: 'A real time messaging application that allows you to chat with other users.',
     subdesc:
       'Live messages handled via Socket.io. Custom themes with daisyUi. The platform contains both backend and frontend code. Built with Node.js, Express.js, MongoDB, React and Tailwind.',
-    href: 'fullstack-chat-app-vmlh.onrender.com',
+    href: 'https://fullstack-chat-app-vmlh.onrender.com/',
     texture: '/textures/project/project7.png',
     logo: '/assets/project-logo1.png',
     logoStyle: {
@@ -136,6 +136,7 @@ export const myProjects = [
     desc: 'Learn more about your chosen subject with your AI companion.',
     subdesc:
       'Backend built using Clerk, Supabase and Vapi and the Frontend built using Next.js and Tailwind.',
+    href: 'https://saas-app-11b8.onrender.com/',
     texture: '/textures/project/project8.png',
     logo: '/assets/project-logo1.png',
     logoStyle: {
@@ -181,7 +182,7 @@ export const myProjects = [
     title: 'Natours - Tour Booking Platform',
     desc: 'Natours is an application that allows you to view and book tours that are hosted all around the world!',
     subdesc:
-      'Bookings are handled by Stripe. The platform contains both backend and frontend code. Built with Node.js, Express.js, MongoDB, Pug, and Postman.',
+      'Bookings are handled by Stripe. The platform contains both backend and frontend code. Built with Node.js, Express.js, MongoDB, Pug, and api testing with Postman.',
     href: 'https://natours-55q3.onrender.com/',
     texture: '/textures/project/project1.png',
     logo: '/assets/project-logo1.png',
@@ -211,6 +212,11 @@ export const myProjects = [
         id: 4,
         name: 'MongoDB',
         path: '/assets/MongoDB.png',
+      },
+      {
+        id: 4,
+        name: 'Stripe',
+        path: '/assets/stripelogo.png',
       },
     ],
   },
