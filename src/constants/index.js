@@ -61,7 +61,7 @@ export const myProjects = [
     title: "Engagemo - AI Writing Feedback",
     desc: "Whether it is helping students write better, giving faster feedback, or creating personalized learning tasks, Engagemo brings the power of smart teaching and learning to your classroom.",
     subdesc:
-      "This was one of my first client projects. I built the Landing Page fot this platform.",
+      "This was one of my first client projects. I built the Landing Page for this platform.",
     href: "https://engagemo.ai",
     texture: "/textures/project/project9.png",
     logo: "/assets/project-logo1.png",
